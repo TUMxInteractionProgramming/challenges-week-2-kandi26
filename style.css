@@ -1,0 +1,89 @@
+/*Tab bar*/        
+        #tab-bar{
+            background-color: white;
+        }
+        .selected {
+            border-width: 4px;
+            border-color: #3F51B5;
+        }
+        button {
+            /* #2 #colourful #plusfive */
+            text-align: center;
+            background-color: white;
+            color: black;
+            border-style: none;
+            font-size: 13px;
+            width: 33%;
+            height: 72px;
+            /* #2 #font capital #letters */
+        }
+/*Global*/
+        /*styles for channel area*/
+        h2 {
+            /* #2 #colorful #channelandchat */
+            background-color: white;
+        }
+
+        /*styles for chat area*/
+   
+        ul {  /* Listenformatierung ohne Bullets und Hintergrund weiß */
+        list-style-type: none;
+        background-color: white;
+
+        }
+        li {
+            padding: 16px;
+            font-size: 16px;
+            border-style: solid;
+            border-color: #F5F5F5;
+            border-width: thin;
+        }
+        body {
+            /* #2 #colorful #background */
+            background-color: #F5F5F5 ;
+        }
+        * {
+            /* #2 #font #faces */
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .uppercase {
+            /* #2 #font #locations need an extra element, we'll use strong for w3w locations */
+            text-transform: uppercase;
+        }
+/*App bar*/
+        .app-bar { /* #2 #colourful #app-bar */       
+            background-color: #3F51B5;
+            color: white;
+        }
+        .ablack {/* Linkfarbe Schwarz */
+            color: black;
+        }
+        .center {
+            text-align: center;
+            vertical-align: middle;
+        }
+
+/*Messages*/
+        .channelstyle {
+            font-size: medium;
+        }
+        .channelem {/* #2 #font #remaining overrides the default italic appearance of em elements*/
+            font-size: larger;
+            font-style: normal;
+        }
+        .channelwidth {
+            width: 80%;
+            padding: 8px;
+            margin-left: 2.5%;
+        }
+        .channelwidthmy {
+            width: 80%;
+            padding: 8px;
+            margin-left: 17.5%;
+        }
+        .channeltext {
+            background-color: white;
+            padding: 16px;
+        }
